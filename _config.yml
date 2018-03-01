@@ -19,6 +19,9 @@ collections:
   api:
     title: APIs
     position: 2
+  ajax:
+    title: AJAX
+    position: 3
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag

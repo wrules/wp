@@ -1,6 +1,9 @@
 <div id="sidebar" class="sidebar">
+
 	{% assign sorted_collections = site.collections | sort: "position" %}
+
 	{% for collection in sorted_collections %}
+
 		{% if collection.label != "posts" %}
 			<section>
 				<h6>{{ collection.title }}</h6>
@@ -17,5 +20,7 @@
 				</ul>
 			</section>
 		{% endif %}
+
 	{% endfor %}
+
 </div>
