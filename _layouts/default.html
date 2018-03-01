@@ -22,7 +22,9 @@
 		<script src="{{ site.baseurl }}/js/main.js"></script>
 	</head>
 	<body>
+
 		<header>
+			
 			<h1>
 				<button type="button" class="open-nav" id="open-nav"></button>
 				<a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.svg" height="40" alt="{{ site.title }} logo"></a>
@@ -35,19 +37,17 @@
 
 			{% include sidebar.html %}
 
-			<p class="copyright">
-				<a href="https://cloudcannon.com/">
-					Template by CloudCannon
-				</a>
-			</p>
 		</header>
+
 		<div class="main">
 			{{ content }}
 		</div>
+
 		<script>
 			document.getElementById("open-nav").addEventListener("click", function () {
 				document.body.classList.toggle("nav-open");
 			});
 		</script>
+
 	</body>
 </html>
