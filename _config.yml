@@ -15,17 +15,17 @@ collections:
   documentation:
     title: Welcome
     position: 1
-  api:
-    title: API
-    position: 2
-  ajax:
-    title: AJAX
-    position: 3
-  css:
-    title: CSS
-    position: 4
   html:
     title: HTML
+    position: 2
+  api:
+    title: API
+    position: 3
+  ajax:
+    title: AJAX
+    position: 4
+  css:
+    title: CSS
     position: 5
   javascript:
     title: JavaScript
