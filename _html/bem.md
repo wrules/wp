@@ -12,21 +12,21 @@ content_markdown: |-
   HTML/CSS implementation
 left_code_blocks:
   - code_block: |-
-        <body class="page">
+      <body class="page">
           <!-- верхний колонтитул и навигация -->
           <header class="header page__header">...</header>
           <!-- нижний колонтитул -->
           <footer class="footer page__footer">...</footer>
-        </body>
+      </body>
     title: HTML
     language: html
   - code_block: |-
-     .page__header {
-        padding: 20px;
-     }    
-     .page__footer {
-        padding: 50px;
-     }
+      .page__header {
+          padding: 20px;
+      }      
+      .page__footer {
+          padding: 50px;
+      }
     title: CSS
-    language: css    
+    language: css
  ---
