@@ -19,15 +19,5 @@ left_code_blocks:
           <footer class="footer page__footer">...</footer>
       </body>
     title: HTML
-    language: HTML    
-  - code_block: |-
-        .page__header {
-            padding: 20px;
-        }
-        
-        .page__footer {
-            padding: 50px;
-        }
-      title: CSS
-      language: CSS 
+    language: html   
 ---
