@@ -4,24 +4,59 @@
 title: WRules
 description: WRules Jekyll template.
 url: https://wrules.github.io/wp/
-google_analytics_key:
 permalink: pretty
 
 # -----
 # Build
 
 timezone: Etc/UTC
-
-collections:
+collections_dir: categories
+collections:  
   documentation:
-    title: Documentation
+    title: Welcome
     position: 1
   api:
-    title: APIs
+    title: API
     position: 2
   ajax:
     title: AJAX
     position: 3
+  css:
+    title: CSS
+    position: 4
+  html:
+    title: HTML
+    position: 5
+  javascript:
+    title: JavaScript
+    position: 6
+  git:
+    title: Git
+    position: 7
+  gulp:
+    title: Gulp
+    position: 8
+  linux:
+    title: Linux
+    position: 9
+  php:
+    title: PHP
+    position: 10
+  mysql:
+    title: MySQL
+    position: 11
+  seo:
+    title: SEO
+    position: 12
+  wordpress:
+    title: WordPress
+    position: 13
+  webpack:
+    title: Webpack
+    position: 14  
+  lint:
+    title: Lint
+    position: 15                             
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -48,34 +83,3 @@ defaults:
       _hide_content: true
 
 # -----------
-# CloudCannon
-
-types:
-  - get
-  - put
-  - delete
-  - post
-
-languages:
-  bash: Bash
-  c: C
-  css: CSS
-  html: HTML
-  java: Java
-  javascript: JavaScript
-  json: JSON
-  php: PHP
-  python: Python
-  ruby: Ruby
-
-_options:
-  content_markdown:
-    format: p h4 h5 h6
-    bold: true
-    italic: true
-    link: true
-    bulletedlist: true
-    numberedlist: true
-    image: true
-    table: true
-    styles: /css/editor.css

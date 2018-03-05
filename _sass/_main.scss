@@ -1,3 +1,10 @@
+::-webkit-scrollbar {width: 3px;}
+::-webkit-scrollbar-track {background-color: #eee;}
+::-webkit-scrollbar-thumb {background-color: #eee;}
+::-webkit-scrollbar-thumb:hover {background-color: #aaa;}
+::selection {background: #35d69b;}
+::-moz-selection {background: #35d69b;}
+
 html, body {
 	padding: 0;
 	margin: 0;
@@ -468,6 +475,12 @@ header {
 			height: 26px;
 			margin: 0 18px;
 		}
+	}
+
+	.logo {
+		color: #fff;
+		font-size: 26px;
+		padding-left: 20px;
 	}
 
 	.open-nav {

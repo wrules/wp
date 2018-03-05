@@ -6,19 +6,20 @@
         <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
         {% seo %}
         <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
-        <link rel="icon" type="image/png" href="/favicon.png">
+        <link rel="icon" type="image/png" href="/wp/favicon.png">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="{{ site.baseurl }}/js/main.js"></script>
     </head>
 
     <body>
-        <header>
-            <h1>
-                <button type="button" class="open-nav" id="open-nav"></button>
-                <a href="{{ site.baseurl }}/">
-                    <img src="{{ site.baseurl }}/images/logo.svg" height="40" alt="{{ site.title }} logo">
+        <header>            
+            <h1>                
+                <button type="button" class="open-nav" id="open-nav"></button>                
+                <a href="{{ site.baseurl }}/" class="logo">
+                    echo.
                 </a>
             </h1>
+            
             <form action="{{ site.baseurl }}/search/" method="get">
                 <input type="text" name="q" id="search-input" placeholder="Search">
                 <input type="submit" value="Search" style="display: none;">
