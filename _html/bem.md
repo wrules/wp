@@ -9,7 +9,7 @@ content_markdown: |-
 
   BEM is a methodology that helps you to create reusable components and code sharing in front-end development.
   Documentation: https://bem.info/methodology/  
-
+  HTML implementation
 left_code_blocks:
   - code_block: |-
       <body class="page">
@@ -19,5 +19,18 @@ left_code_blocks:
           <footer class="footer page__footer">...</footer>
       </body>
     title: HTML
-    language: HTML
+    language: HTML    
+        
+  CSS implementation
+left_code_blocks:
+  - code_block: |-
+      .page__header {
+          padding: 20px;
+      }
+      
+      .page__footer {
+          padding: 50px;
+      }
+    title: CSS
+    language: CSS   
 ---
