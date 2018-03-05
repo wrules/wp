@@ -83,3 +83,33 @@ defaults:
       _hide_content: true
 
 # -----------
+
+types:
+  - get
+  - put
+  - delete
+  - post
+
+languages:
+  bash: Bash
+  c: C
+  css: CSS
+  html: HTML
+  java: Java
+  javascript: JavaScript
+  json: JSON
+  php: PHP
+  python: Python
+  ruby: Ruby
+
+_options:
+  content_markdown:
+    format: p h4 h5 h6
+    bold: true
+    italic: true
+    link: true
+    bulletedlist: true
+    numberedlist: true
+    image: true
+    table: true
+    styles: /css/editor.css
