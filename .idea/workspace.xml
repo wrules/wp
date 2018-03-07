@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a303d607-9b05-45aa-bd36-3665fa2b4b98" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_html/bem.md" afterPath="$PROJECT_DIR$/_html/bem.md" />
-    </list>
+    <list default="true" id="a303d607-9b05-45aa-bd36-3665fa2b4b98" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,6 +121,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="/opt/lampp/htdocs/codeigniter.dev" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -172,12 +171,12 @@
       <workItem from="1520008967373" duration="1307000" />
       <workItem from="1520235489597" duration="344000" />
       <workItem from="1520243601629" duration="451000" />
-      <workItem from="1520248021801" duration="6013000" />
+      <workItem from="1520248021801" duration="6627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11767000" />
+    <option name="totallyTimeSpent" value="12381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="2" width="1920" height="1037" extended-state="6" />
