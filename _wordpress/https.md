@@ -9,7 +9,7 @@ content_markdown: |-
 
   This rules need add in wp-config.php file.
 left_code_blocks:
-  - code_block:
+  - code_block: |-
       if (isset($_ENV['PANTHEON_ENVIRONMENT']) && php_sapi_name() != 'cli') {          
         if ($_ENV['PANTHEON_ENVIRONMENT'] === 'live') {
           $primary_domain = 'websitename.com';
@@ -22,7 +22,7 @@ left_code_blocks:
             newrelic_name_transaction("redirect");
           }
           header('HTTP/1.0 301 Moved Permanently');
-          header('Location':' https://'. $primary_domain . $_SERVER['REQUEST_URI']);
+          header('Location: https://'. $primary_domain . $_SERVER['REQUEST_URI']);
           exit();
         }
       }            
