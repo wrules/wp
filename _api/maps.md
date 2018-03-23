@@ -1,6 +1,6 @@
 ---
-title: Upload file
-position: 2
+title: GMap InfoWindow
+position: 1
 parameters:
   - name:
     content:
