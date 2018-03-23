@@ -1,5 +1,5 @@
 ---
-title: GMap InfoWindow
+title: Simple ajax
 position: 1
 parameters:
   - name:
