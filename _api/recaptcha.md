@@ -30,8 +30,8 @@ left_code_blocks:
         });
     title: JS 
     language: javascript
-- code_block: |2-
-        use PHPMailer\PHPMailer\PHPMailer;
+- code_block: |-
+      use PHPMailer\PHPMailer\PHPMailer;
         require ( "lib/PHPMailer.php" );
         require ( "lib/SMTP.php" );
         $mail = new PHPMailer(true);
@@ -64,6 +64,6 @@ left_code_blocks:
             $mail->Body = $message;
             $mail->send();
         }
-    title: PHP 
+    title: PHP
     language: php    
 ---
