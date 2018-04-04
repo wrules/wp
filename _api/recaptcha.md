@@ -30,7 +30,7 @@ left_code_blocks:
         });
     title: JS 
     language: javascript
-- code_block: |-
+- code_block: |2-
         use PHPMailer\PHPMailer\PHPMailer;
         require ( "lib/PHPMailer.php" );
         require ( "lib/SMTP.php" );
