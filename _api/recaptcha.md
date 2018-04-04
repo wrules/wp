@@ -8,8 +8,8 @@ content_markdown: |-
   Goolge https://www.google.com/recaptcha/intro/android.html
   
 left_code_blocks:
-  - code_block: |-
-        $formRestaurant = $('#formRestaurant');
+- code_block: |-
+     $formRestaurant = $('#formRestaurant');
         $formRestaurant.submit(function (e) {
             e.preventDefault();
             if (grecaptcha.getResponse() == "") {
@@ -30,8 +30,10 @@ left_code_blocks:
         });
     title: JS 
     language: javascript
+title: jQuery
+language: javascript
 - code_block: |-
-      use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\PHPMailer;
         require ( "lib/PHPMailer.php" );
         require ( "lib/SMTP.php" );
         $mail = new PHPMailer(true);
@@ -64,6 +66,6 @@ left_code_blocks:
             $mail->Body = $message;
             $mail->send();
         }
-    title: PHP
-    language: php    
+title: PHP
+language: php  
 ---
