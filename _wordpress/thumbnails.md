@@ -1,6 +1,6 @@
 ---
-title: HTTPS
-position: 1
+title: Thumbnails
+position: 2
 parameters:
   - name:
     content:
